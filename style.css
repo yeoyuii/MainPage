@@ -2,8 +2,21 @@
     box-sizing: border-box;
 }
 
+header{
+    text-align: center;
+}
+
+
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-image: url("images/grided.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed; 
+    height: 20%;
+    margin: 200px;
+    text-align: center;
 }
 
 nav {
@@ -21,3 +34,16 @@ nav ul {
     list-style-type: none;
     gap: 20px;
 }
+
+section {
+    width: 50%;
+    height: 650px;
+    padding: 25px;
+    background-color: #ece2d1;
+    text-align: center;
+    border: 2px solid rgb(91, 108, 164);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
