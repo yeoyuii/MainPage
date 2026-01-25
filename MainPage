@@ -19,5 +19,11 @@
                 <img src="images/jellyphish.PNG" alt="A_Jellyfish" style="width:250px;height:250px;">
             </nav>
         </header>
+
+        <section>
+            <div class = "flex-container">
+                <h2>Another section</h2>
+            </div>
+        </section>
 </body>
 </html>
