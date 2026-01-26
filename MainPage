@@ -8,22 +8,47 @@
 </head>
 
 <body>
-    <h1>ioeuui's website</h1>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="ioeuui@gmail.com">Send email</a></li>
-                    <li><a href="ea.chen@mail.utoronto.ca">Student email</a></li>
-                    <li><a href = "https://www.instagram.com/yeuyuii/"> Art account</a></li>
-                </ul>
-                <img src="images/jellyphish.PNG" alt="A_Jellyfish" style="width:250px;height:250px;">
-            </nav>
-        </header>
+    <nav>
+        <ul>
+            <li><a href="ioeuui@gmail.com">Home</a></li>
+            <li><a href="ioeuui@gmail.com">Project Page</a></li>
+            <li><a href="ea.chen@mail.utoronto.ca">Experiences</a></li>
+            <li><a href = "https://www.instagram.com/yeuyuii/"> Art Journey</a></li>
+            <li><a href = "https://www.instagram.com/yeuyuii/"> Interests and Hobbies</a></li>
+            <li><a href = "https://www.instagram.com/yeuyuii/"> Contact me</a></li>
+        </ul>
+    </nav>
+    <div class = "banner">
+        <img src = "images/cloudbanner.jpg" alt = "I did not draw this">
+    </div>
+    <div class = "main-container">
+        <div class = "main-content">
+            <header>
+                <h1>ioeuui's website</h1>
+            </header>
+            <section class = "main-section">
+                <h2>Hello! Welcome to my Page</h2>
+                <div class = "sunbastard">
+                    <img src = "images/sunfish.PNG" alt = "Pixel art of a sunfish" class = "sunfish">
+                </div>
+            </section>
+            <section>
+                <h2>More Info 1</h2>
+                <p>Work in progress</p>
+            </section>
+            
+            <section>
+                <h2>More Info 2</h2>
+                <p>Work in progress</p>
+            </section>
+            
+            <section>
+                <h2>More Info 3</h2>
+                <p>Work in progress</p>
+            </section>
+        </div>
+    </div>
 
-        <section>
-            <div class = "flex-container">
-                <h2>Another section</h2>
-            </div>
-        </section>
+
 </body>
 </html>
