@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang = 'en'>
 <head>
-    <title>ioeuui's website</title>
+    <title>ioeuui's Portfolio Website</title>
     <meta charset = "utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website showcasing projects and experiences">
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel = "stylesheet" href = "style.css">
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="ioeuui@gmail.com">Home</a></li>
-            <li><a href="ioeuui@gmail.com">Project Page</a></li>
-            <li><a href="ea.chen@mail.utoronto.ca">Experiences</a></li>
+            <li><a href="MainPage.html">Home</a></li>
+            <li><a href="projectPage.html">Project Page</a></li>
+            <li><a href="experiences.html">Experiences</a></li>
             <li><a href = "https://www.instagram.com/yeuyuii/"> Art Journey</a></li>
-            <li><a href = "https://www.instagram.com/yeuyuii/"> Interests and Hobbies</a></li>
-            <li><a href = "https://www.instagram.com/yeuyuii/"> Contact me</a></li>
+            <li><a href = "interestsHobbies.html"> Interests and Hobbies</a></li>
+            <li><a href = "mailto:ioeuui@gmail.com"> Contact me</a></li>
         </ul>
     </nav>
     <div class = "banner">
-        <img src = "images/cloudbanner.jpg" alt = "I did not draw this">
+        <a href = "https://ca.pinterest.com/pin/998814023624574526/">
+            <img src = "images/cloudbanner.jpg" alt = "I did not draw this">
+        </a>
     </div>
     <div class = "main-container">
         <div class = "main-content">
@@ -29,7 +33,9 @@
             <section class = "main-section">
                 <h2>Hello! Welcome to my Page</h2>
                 <div class = "sunbastard">
-                    <img src = "images/sunfish.PNG" alt = "Pixel art of a sunfish" class = "sunfish">
+                    <a href = "https://en.wikipedia.org/wiki/Ocean_sunfish">
+                        <img src = "images/sunfish.PNG" alt = "Pixel art of a sunfish" class = "sunfish">
+                    </a>
                 </div>
             </section>
             <section>
