@@ -2,11 +2,13 @@
     box-sizing: border-box;
 }
 
+/* ====Body parts==== */
+
 header{
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
-
 
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -20,7 +22,26 @@ body {
     margin: 100px;
     padding-top: 50 px;
 }
+section {
+    width: 100%;
+    height: 650px;
+    background: rgba(74, 123, 179, 0.5);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 40px; 
+}
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+    max-width: 90%;
+}
 
+
+/* ====Banner====*/
 .banner {
     width: 100%;
     max-width: 800px; 
@@ -33,24 +54,46 @@ body {
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-section {
-    width: 100%;
-    height: 650px;
-    background: rgba(101, 151, 213, 0.5);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 50px;
-    align-items: center;
+
+
+/* ==== Texts ==== */
+h2{
+    text-decoration: overline underline;
+    font-size: clamp(24px, 5vw, 30px);
+}
+p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(5, 14, 48);
+    font-size: clamp(16px, 2vw, 22px);
+    line-height: 1.5;
 }
 
+
+
+/* ==== Sunfish profile ==== */
 .sunbastard{
-    left: 90px; 
-    margin: 20px;
-    width: 50%;
+    position: relative;
+    width: 40%;
+    flex-shrink: 0;
     height: auto;
     filter: 
-    drop-shadow(0 0 2px rgba(255, 255, 255, 0.3))
-    hue-rotate(0deg);
+        drop-shadow(0 0 2px rgba(0, 0, 0, 0.3))
+        hue-rotate(0deg);
     transition: filter 0.5s;
+}
+.sunbastard::before {
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    background: white;
+    border-radius: 50%;
+    z-index: -1; /* Behind the image */
 }
 .sunbastard img{
     width: 100%;
@@ -59,12 +102,13 @@ section {
 }
 .sunbastard:hover{
     filter: 
-    drop-shadow(0 0 8px rgba(255, 255, 255))
+    drop-shadow(0 0 8px rgb(50, 65, 90))
     hue-rotate(30deg);
 }
 
 
 
+/* ====Navigation Bar====*/
 nav{
     position: fixed;
     top: 0;
@@ -81,10 +125,11 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
+    background-color: rgb(48, 82, 121);
     justify-content: right;
     width: 100%;
 }
+
 ul li {
   float: left;
 }
@@ -98,30 +143,6 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #0a2036;
+  background-color:rgba(20, 33, 75, 0.5);
 }
 
-/*
-.mycontainer{
-    width: 100%;
-    overflow: auto;
-}
-
-.mycontainer div{
-    width: 33%;
-    float: left;
-}
-
-.sky-squid {
-  filter: 
-    drop-shadow(0 0 2px rgba(255, 255, 255, 0.3))
-    hue-rotate(0deg);
-  transition: filter 0.5s;
-}
-
-.sky-squid:hover {
-  filter: 
-    drop-shadow(0 0 8px rgba(255, 255, 255))
-    hue-rotate(30deg);
-}
-*/
