@@ -15,46 +15,47 @@
             <li><a href="MainPage.html">Home</a></li>
             <li><a href="projectPage.html">Project Page</a></li>
             <li><a href="experiences.html">Experiences</a></li>
-            <li><a href = "https://www.instagram.com/yeuyuii/"> Art Journey</a></li>
             <li><a href = "interestsHobbies.html"> Interests and Hobbies</a></li>
-            <li><a href = "mailto:ioeuui@gmail.com"> Contact me</a></li>
+            <li><a href = "contactme.html"> Contact me</a></li>
         </ul>
     </nav>
+
     <div class = "banner">
         <a href = "https://ca.pinterest.com/pin/998814023624574526/">
             <img src = "images/cloudbanner.jpg" alt = "I did not draw this">
         </a>
     </div>
+    <header>
+        <h1>ioeuui's website</h1>
+    </header>
+    
     <div class = "main-container">
         <div class = "main-content">
-            <header>
-                <h1>ioeuui's website</h1>
-            </header>
             <section class = "main-section">
-                <h2>Hello! Welcome to my Page</h2>
+                <div class="text-container">
+                    <h2>About Me</h2>
+                    <p>Hi! My name is Ella and I am currently a univerity student</p>
+                    <p>at University of Toronto Mississauga</p>
+                    <p>I built this website because I wanted to keep track of my projects and experiences</p>
+                    <p>I also wanted to showcase my digital drawings (like the sunfish)!</p>
+                </div>
                 <div class = "sunbastard">
                     <a href = "https://en.wikipedia.org/wiki/Ocean_sunfish">
-                        <img src = "images/sunfish.PNG" alt = "Pixel art of a sunfish" class = "sunfish">
+                        <img src = "images/sunphish.PNG" alt = "Pixel art of a sunfish" class = "sunfish">
                     </a>
                 </div>
             </section>
+            <h2>More Info</h2>
             <section>
-                <h2>More Info 1</h2>
-                <p>Work in progress</p>
-            </section>
-            
-            <section>
-                <h2>More Info 2</h2>
-                <p>Work in progress</p>
-            </section>
-            
-            <section>
-                <h2>More Info 3</h2>
-                <p>Work in progress</p>
+                <p>Hopefully theres a little pixel person walking around soon...</p>
             </section>
         </div>
     </div>
+    
 
 
 </body>
+
+
+
 </html>
