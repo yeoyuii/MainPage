@@ -11,15 +11,19 @@
 
 <body>
     <nav>
-        <ul>
+        <ul class = "nav-links">
             <li><a href="MainPage.html">Home</a></li>
             <li><a href="projectPage.html">Project Page</a></li>
             <li><a href="experiences.html">Experiences</a></li>
             <li><a href = "interestsHobbies.html"> Interests and Hobbies</a></li>
             <li><a href = "contactme.html"> Contact me</a></li>
         </ul>
+        <div class = "burger">
+            <div class = "line1"></div>
+            <div class = "line2"></div>
+            <div class = "line3"></div>
+        </div>
     </nav>
-
     <div class = "banner">
         <a href = "https://ca.pinterest.com/pin/998814023624574526/">
             <img src = "images/cloudbanner.jpg" alt = "I did not draw this">
@@ -53,7 +57,7 @@
     </div>
     
 
-
+    <script src = "app.js"></script>
 </body>
 
 
