@@ -7,6 +7,9 @@
     <meta name="description" content="Portfolio website showcasing projects and experiences">
     <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -48,11 +51,6 @@
                         <img src = "images/sunphish.PNG" alt = "Pixel art of a sunfish" class = "sunfish">
                     </a>
                 </div>
-            </section>
-            <h2>More Info</h2>
-            <section>
-                <p>Hopefully theres a little pixel person walking around soon...</p>
-            </section>
         </div>
     </div>
     
